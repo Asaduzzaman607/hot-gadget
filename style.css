@@ -1,0 +1,146 @@
+ * {
+    transition: .3s all ease-in-out;
+}
+
+body {
+    font-family: 'Poppins', ;
+}
+
+h1 {
+    font-size: 41px;
+}
+
+h2,
+h3 {
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 34px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FFD019;
+}
+
+.navbar-brand img,
+footer img {
+    height: 65px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #707070;
+}
+
+.banner-section {
+    background-image: url(images/dooted-qube.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 8%;
+}
+
+.carousel-item {
+    background-image: url(images/product-text.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5%;
+    padding-bottom: 50px;
+}
+
+.carousel-indicators li {
+    background-color: #CECECE;
+    height: 10px;
+    width: 16px;
+    border-radius: 6px;
+    border: none;
+}
+
+.carousel-indicators .active {
+    background-image: linear-gradient(to right, #FF9C35, #FFD019);
+    width: 45px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 5px 20px rgba(109, 109, 109, 0.12);
+    border-radius: 10px;
+}
+
+.card img {
+    padding-top: 30px;
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+span.color-bar {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 5px;
+    border-radius: 5px;
+    background-image: linear-gradient(to left, #FF9C35, #FFD019);
+}
+
+.product-cat-title a {
+    color: #FF9D00;
+    font-weight: 700;
+}
+
+.single-cat {
+    text-align: center;
+    border-radius: 20px 0 20px 0px;
+}
+.single-cat a h4{
+    color: #2c2c2c;
+    margin-top: 10px;
+}
+.single-cat.reverse-radious{
+    border-radius: 0 20px 0 20px;
+
+}
+
+.single-cat:hover {
+    transform: translateY(-10px);
+}
+
+footer li a {
+    color: dimgray;
+}
+
+.contact-info img,
+.social-media img {
+    width: 16px;
+    height: 16px;
+}
+
+.contact-info img {
+    margin-right: 10px;
+}
+
+.social-media li a {
+    display: block;
+    text-align: center;
+    width: 28px;
+    height: 28px;
+    background-color: #000000;
+    border-radius: 50%;
+}
+
+.social-media li a:hover {
+    background-image: linear-gradient(to left, #FF9C35, #FFD019);
+}
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
